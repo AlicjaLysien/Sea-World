@@ -1,0 +1,70 @@
+body 
+{
+background-color: #fcc756;
+}
+
+#header-nav
+{
+        background-color: #3b0404;
+        border-radius: 0;
+        border: 0;
+        border-bottom: 3px solid  #920000;
+}
+
+.navbar-brand p span
+{
+    color: #fcc756;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left:45px;
+}
+
+#nav-list
+{
+    margin-top: 1px;
+}
+
+#nav-list a {
+    color: #fff;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    color:#fcc756;
+    text-align: center;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #fcc756;
+  }
+
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -40px;
+  }
+
+
+
+.main-menu
+{
+    background-color:  #3b0404;
+    color: #ffe3a8;
+    border: 3px solid  #920000;
+}
+
+@media (max-width: 767px)
+{.main-menu
+    {
+        margin: 25px 45px 25px 45px;
+    }
+}
+
+@media (min-width: 768px)
+{.main-menu
+    {
+        margin: 25px;
+    }
+}
