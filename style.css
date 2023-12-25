@@ -1,38 +1,38 @@
-body
-{
-background-color: rgb(203, 246, 252);
+body {
+    background-color: rgb(203, 246, 252);
 }
-header
-{
-background-color: rgb(3, 44, 92);
-height: 80px;
-width: 100%;
+
+header {
+    background-color: rgb(3, 44, 92);
+    height: 80px;
+    width: 100%;
 }
-h1
-{
-    color:white;
+
+h1 {
+    color: white;
     font-size: 40px;
     text-align: center;
     padding-top: 15px;
     margin-top: 0;
 }
-.container
-{
+
+.container {
     margin-top: 40px;
 }
-.photo
-{ height: 250px;
- overflow: hidden;
- margin-bottom: 30px;
- position: relative;
+
+.photo {
+    height: 250px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    position: relative;
 }
-.photo img 
-{
-  height: 250px;
-  width: 350px;
-} 
-.background
-{
+
+.photo img {
+    height: 250px;
+    width: 350px;
+}
+
+.background {
     width: 350px;
     height: 40px;
     background-color: rgb(27, 19, 68);
@@ -40,8 +40,8 @@ h1
     position: absolute;
     bottom: 0;
 }
-.name
-{
+
+.name {
     width: 350px;
     color: white;
     font-size: 30px;
@@ -49,38 +49,38 @@ h1
     position: absolute;
     bottom: 0;
 }
-.photo01
-{
-transition: all 0.4s ease-in-out;
+
+.photo01 {
+    transition: all 0.4s ease-in-out;
 }
-.photo01:hover
-{
--webkit-transform: scale(0.9);
--ms-transform: scale(0.9);
-transform: scale(0.9);
+
+.photo01:hover {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
 }
-.photo01 img
-{
-transition: all 0.4s ease-in-out;
+
+.photo01 img {
+    transition: all 0.4s ease-in-out;
 }
-.photo01:hover img
-{
- opacity: 0.8;
+
+.photo01:hover img {
+    opacity: 0.8;
 }
-.photo02
-{
-transition: transform 0.4s ease-in-out;
+
+.photo02 {
+    transition: transform 0.4s ease-in-out;
 }
-.photo02:hover
-{
-    -webkit-transform: scale(0.95) rotate(5deg);  /*rotate - obrot skew(5deg, 0deg) -przekrzywienie X i Y */
+
+.photo02:hover {
+    -webkit-transform: scale(0.95) rotate(5deg);
+    /*rotate - obrot skew(5deg, 0deg) -przekrzywienie X i Y */
     -ms-transform: scale(0.95) rotate(5deg);
     transform: scale(0.95) rotate(5deg);
 }
 
 
-.img03_text
-{
+.img03_text {
     position: absolute;
     height: 48px;
     width: 350px;
@@ -90,8 +90,8 @@ transition: transform 0.4s ease-in-out;
     font-size: 36px;
     text-align: center;
 }
-.img03_main
-{
+
+.img03_main {
     position: absolute;
     top: 0;
     height: 250px;
@@ -99,12 +99,12 @@ transition: transform 0.4s ease-in-out;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
 }
-.img03_main:hover
-{
+
+.img03_main:hover {
     opacity: 1;
 }
-.img04_text
-{
+
+.img04_text {
     position: absolute;
     height: 38px;
     width: 350px;
@@ -113,17 +113,18 @@ transition: transform 0.4s ease-in-out;
     font-size: 26px;
     text-align: center;
 }
-.img04_icon
-{
-    display:block;
+
+.img04_icon {
+    display: block;
     font-size: 70px;
-   opacity:1;
+    opacity: 1;
 }
-.img04_icon p{
+
+.img04_icon p {
     font-size: 26px;
 }
-.img04_main
-{
+
+.img04_main {
     position: absolute;
     top: 0;
     height: 250px;
@@ -132,40 +133,39 @@ transition: transform 0.4s ease-in-out;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
 }
-.img04_main:hover
-{
+
+.img04_main:hover {
     opacity: 1;
 }
-.img05_photo
-{
+
+.img05_photo {
     height: 250px;
     width: 350px;
     overflow: hidden;
 }
-.img05_photo img
-{
+
+.img05_photo img {
     transition: all 0.5s ease-in-out;
 }
-.img05_photo:hover img
-{
+
+.img05_photo:hover img {
     -webkit-transform: scale(1.15);
     -ms-transform: scale(1.15);
     transform: scale(1.15);
 }
-.img06_photo
-{
+
+.img06_photo {
     height: 250px;
     width: 350px;
     overflow: hidden;
 }
-.img06_photo img
-{
+
+.img06_photo img {
     transition: all 0.7s ease-in-out;
 }
-.img06_photo:hover img
-{
+
+.img06_photo:hover img {
     -webkit-transform: scale(1.3) rotate(-5deg);
     -ms-transform: scale(1.3) rotate(-5deg);
     transform: scale(1.3) rotate(-5deg);
 }
-
